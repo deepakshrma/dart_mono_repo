@@ -1,0 +1,20 @@
+name: http_server_cli
+version: 1.0.0
+author: "Deepak Vishwakarma <deepak.m.shrma@gmail.com>"
+homepage: https://github.com/dart-lang/args
+description: >- 
+  http_server_cli is a simple, zero-configuration command-line http server. It is highly inspired by (https://github.com/http-party/http-server)[https://github.com/http-party/http-server]
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+# Add the bin/http_server_cli.dart script to the scripts pub installs.
+executables:
+  http_server_cli:
+
+dependencies:
+  http_server: ^0.9.8+3
+  args: ^1.5.2
+
+dev_dependencies:
+  test: '^1.5.1'
