@@ -20,7 +20,7 @@ startServer(
     index = "true",
     errorPage = "",
     list = "true",
-    verbose}) async {
+    verbose = true}) async {
   var staticFiles = new VirtualDirectory(path);
   log(verbose, "Staring VirtualDirectory $path");
   if (isTrue(list)) {

@@ -51,6 +51,5 @@ void main(List<String> arguments) {
     );
   } catch (e) {
     print(parser.usage);
-    throw e;
   }
 }

@@ -1,9 +1,9 @@
 name: http_server_cli
-version: 1.0.0
+version: 1.0.0+1
 author: "Deepak Vishwakarma <deepak.m.shrma@gmail.com>"
 homepage: https://github.com/deepakshrma/dart_mono_repo
 description: >- 
-  http_server_cli is a simple, zero-configuration command-line http server. It is highly inspired by (https://github.com/http-party/http-server)[https://github.com/http-party/http-server]
+  A zero-configuration command-line http server. inspired by `nodejs http-server`
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
