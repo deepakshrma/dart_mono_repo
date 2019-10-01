@@ -1,3 +1,5 @@
+## 1.0.0+4
+- Clean up the options and default values, created by xdeepakv <deepak.m.shrma@gmail.com>
 ## 1.0.0+3
 - Updated readme.md, created by xdeepakv <deepak.m.shrma@gmail.com>
 ## 1.0.0+2

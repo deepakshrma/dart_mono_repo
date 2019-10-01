@@ -12,18 +12,18 @@ If you want to use http_server_cli on the command line, install it using pub glo
 > pub run http_server_cli
 
 #### Extra options
-> pub run http_server_cli --port 9000 --path ./test/public --not-found index.html -d false -s
+> pub run http_server_cli --port 9000 --path ./test/public --not-found index.html --no-dir -s
 
-### Available Options:
+### Available Options/Flags:
 `-p` or `--port` Port to use (defaults to 8080)
-
+`-N` or `--not-found` Page Not Found to use (defaults to '404.html')
 `-a` Address to use (defaults to 0.0.0.0)
 
-`-d` Show directory listings (defaults to `true`)
+`-d` Show directory listings (defaults to `true`), `--no-dir` for false
 
-`-i` Display autoIndex (defaults to `true`)
+`-i` Display autoIndex (defaults to `true`) `--no-index` for false
 
-`-s` or `--silent` Suppress log messages from output
+`-s` or `--silent` Suppress log messages from output(defaults to `false`)
 
 `-h` or `--help` Print this list and exit.
 
